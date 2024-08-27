@@ -1,0 +1,29 @@
+.game {
+  max-width: calc(3 * 100px);
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
+.status{
+    display: flex;
+    align-items: center;
+    
+}
+.reset{
+    height: 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+   
+    cursor: pointer;
+}
+.cell{
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
